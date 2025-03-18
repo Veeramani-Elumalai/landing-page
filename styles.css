@@ -50,17 +50,19 @@ body{
     flex: 1;
 }
 
-.top-right{
-    width: 400px;
+.top-left{
+    display: flex;
+    flex:1;
 
+}
+
+.top-right img{
+    width: 400px;
+    flex: 1;
     display: flex;
     background-color: #d3dff0;
 }
 
-.topmain{
-    font-size: 32px;
-    margin-bottom:20px;
-}
 
 .centertop{
     height: 100px;
