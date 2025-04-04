@@ -30,7 +30,6 @@ body{
     color: rgb(243, 179, 61);   
     align-items: center;
     gap: 10px; 
-    flex: 1; 
 }
 
 .top{
@@ -41,7 +40,7 @@ body{
     gap:1rem;
     color: rgb(243, 179, 61);
     font-family: 'Times New Roman', Times, serif;
-    justify-content: center;
+    justify-content: space-evenly;
     padding-top: 64px;
     padding-bottom: 64px;
 }
@@ -50,7 +49,19 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
+    background-color: #4f5255;
     gap: 1rem;
+    flex-basis: 400px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.topright{
+    display: flex;
+    flex-basis: 400px;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width:500px) {
@@ -59,8 +70,9 @@ body{
     }
 
     .header{
-        flex-direction: column;
+        flex-direction: row;
     }
+
 }
 .centerinfo{
     display:flex;
